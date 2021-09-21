@@ -1,0 +1,68 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  margin: 0px;
+  background-color: #1b1a17;
+  color: #f0e3ca;
+}
+
+@media screen and (min-width: 480px) {
+  .place-over-animation {
+    width: 100%;
+    margin-top: auto;
+    top: 10%;
+    position: absolute;
+  }
+}
+.place-over-animation {
+  width: 100%;
+  margin-top: auto;
+  top: 5%;
+  position: absolute;
+}
+.category-buttons {
+  margin: 1rem;
+  margin-left: 10px;
+  font-size: 1rem;
+  padding: 0.7rem 1.8rem;
+  cursor: pointer;
+  border-radius: 1rem;
+  border-left: solid 4px #ff8303;
+  border-right: solid 4px #ff8303;
+  background-color: black;
+  color: #ff8303;
+  font-weight: 600;
+  transition: 0.4s;
+}
+.category-buttons:hover {
+  color: black;
+  background: #f0e3ca;
+}
+.active {
+  font-weight: 600;
+  background: #f0e3ca;
+  color: black;
+}
+.games-list {
+  font-size: 1.3rem;
+  font-weight: 600;
+  list-style-type: none;
+  margin: 1rem auto;
+  max-width: 300px;
+  width: 90%;
+  padding: 1rem 1rem;
+  border: 2px solid #ff8303;
+  border-end-end-radius: 1rem;
+  border-start-start-radius: 1rem;
+  border-start-end-radius: 1rem;
+  border-end-start-radius: 1rem;
+}
+.line {
+  width: 600px;
+}
+.header-text {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
